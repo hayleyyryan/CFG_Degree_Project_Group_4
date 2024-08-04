@@ -1,65 +1,65 @@
-,Title,Developer,Country,Protagonist,Protagonist_Non_Male,Percentage_non_male
-0,Grand Theft Auto V,Rockstar North,GBR,3,0,18%
-1,Pokémon Sword/Shield,Game Freak,JPN,1,1,56%
-2,Call of Duty: Modern Warfare,Infinity Ward,USA,3,1,17%
-3,Red Dead Redemption 2,Rockstar Studios,USA,1,0,29%
-4,Super Mario Odyssey,Nintendo EDP,JPN,1,0,40%
-5,The Legend of Zelda: Breath of the Wild,Nintendo EDP,JPN,1,0,28%
-6,Pokémon Sun/Moon,Game Freak,JPN,1,1,43%
-7,The Witcher 3: Wild Hunt,CD Projeket Red,POL,1,0,32%
-8,Call of Duty: Black Ops 2,Treyarch,USA,2,0,0%
-9,Borderlands 2,Gearbox Software,USA,4,1,33%
-10,The Walking Dead,Telltale Games,USA,1,0,39%
-11,God of War,Santa Monica Studio,USA,1,0,14%
-12,Uncharted 4: A Thief's End,Naughty Dog,USA,1,0,33%
-13,Inside,Paydead,DNK,1,0,0%
-14,Undertale,Toby Fox,USA,1,1,45%
-15,Bloodborne,FromSoftware,JPN,1,1,40%
-16,Shovel Knight: Shovel of Hope,Yacht Club Games,USA,1,0,17%
-17,"Papers, Please",3909 LLC,USA,1,0,33%
-18,The Last of Us,Naughty Dog,USA,1,0,33%
-19,BioShock Infinite,Irrational Games,USA,1,0,57%
-20,Hotline Miami,Dennaton Games,SWE,2,0,20%
-21,Journey,Thatgamecompany,USA,1,1,100%
-22,Far Cry 3,Ubisoft Montreal,CAN,1,0,21%
-23,Persona 5,P-Studio,JPN,1,0,44%
-24,Tunic,Andrew Shouldice,CAN,1,1,100%
-25,Elden Ring,FromSoftware,JPN,1,1,47%
-26,The Stanley Parable (Ultra Deluxe),Galactic Cafe,GBR,1,0,0%
-27,Neon White,Angel Matrix,USA,1,0,44%
-28,Cuphead,Studio MDHR,CAN,2,0,14%
-29,Deathloop,Arkane Lyon,FRA,1,0,44%
-30,NieR: Automata,PlatinumGames,JPN,1,1,62%
-31,I Was a Teenage Exocolonist,Northway Gates,CAN,1,1,52%
-32,Immortality,Sam Barlow,GBR,2,2,57%
-33,Disco Elysium,ZA/UM,GBR,1,0,33%
-34,Hades,Supergiant Games,USA,1,0,44%
-35,Chicory: A Colorful World,Finji,USA,1,1,100%
-36,It Takes Two,Hazelight Studios,SWE,2,1,50%
-37,The Last of Us Part II,Naughty Dog,USA,2,2,45%
-38,Half-Life:Alyx,Valve,USA,1,1,20%
-39,Ori and the Will of the Wisps,Moon Studios,AUT,1,1,63%
-40,Dragon Quest XI,Square Enix,JPN,1,0,31%
-41,Yakuza 0,Ryu Ga Gotoku Studio,JPN,2,0,12%
-42,There is No Game: Wrong Dimension,Draw Me A Pixel,FRA,1,1,40%
-43,Divinity:Original Sin II,Larian Studios,BEL,1,1,36%
-44,Sekiro: Shadows Die Twice,FromSoftware,JPN,1,0,13%
-45,Ori and the Blind Forest,Moon Studios,AUT,1,1,80%
-46,Devil May Cry 5,Capcom,JPN,2,0,38%
-47,Fire Emblem: Three Houses,Intelligent Systems Koei Tecmo,JPN,1,1,45%
-48,What Remains of Edith Finch,Giant Sparrow,USA,1,1,35%
-49,Celeste,Maddy Makes Games,CAN,1,1,67%
-50,Dead Cells,Motion Twin,FRA,1,1,40%
-51,Hollow Knight,Team Cherry,AUS,1,1,50%
-52,Night in the Woods,Secret Lab,AUT,1,1,67%
-53,Bayonetta 2,PlatinumGames,JPN,1,1,27%
-54,Broken Age,Double Fine Productions,USA,2,1,44%
-55,Metal Gear Solid V: The Phantom Pain,Kojima Productions,JPN,1,0,20%
-56,The Swapper,Facepalm Games,FIN,1,1,67%
-57,Owlboy,D-Pad Studio,NOR,1,0,0%
-58,Dark Souls 2,FromSoftware,JPN,1,1,60%
-59,The Binding of Isaac: Rebirth,Nicalis,USA,1,0,36%
-60,Child of Light,Ubisoft Montreal,CAN,1,1,54%
-61,Florence,Mountains,USA,1,1,50%
-62,Marvel's Spider-Man: Miles Morales,Insomniac Games,USA,1,0,42%
-63,Kena: Bridge of Spirits,Ember Lab,USA,1,1,50%
+,Title,Release,Developer,Country,Protagonist,Protagonist_Non_Male,Percentage_non_male
+0,Grand Theft Auto V,Sep-13,Rockstar North,GBR,3,0,18%
+1,Pokémon Sword/Shield,Nov-19,Game Freak,JPN,1,1,56%
+2,Call of Duty: Modern Warfare,Oct-19,Infinity Ward,USA,3,1,17%
+3,Red Dead Redemption 2,Oct-18,Rockstar Studios,USA,1,0,29%
+4,Super Mario Odyssey,Oct-17,Nintendo EDP,JPN,1,0,40%
+5,The Legend of Zelda: Breath of the Wild,Mar-17,Nintendo EDP,JPN,1,0,28%
+6,Pokémon Sun/Moon,Oct-16,Game Freak,JPN,1,1,43%
+7,The Witcher 3: Wild Hunt,May-15,CD Projeket Red,POL,1,0,32%
+8,Call of Duty: Black Ops 2,Nov-12,Treyarch,USA,2,0,0%
+9,Borderlands 2,Sep-12,Gearbox Software,USA,4,1,33%
+10,The Walking Dead,Apr-12,Telltale Games,USA,1,0,39%
+11,God of War,Apr-18,Santa Monica Studio,USA,1,0,14%
+12,Uncharted 4: A Thief's End,May-16,Naughty Dog,USA,1,0,33%
+13,Inside,Jun-16,Paydead,DNK,1,0,0%
+14,Undertale,Sep-15,Toby Fox,USA,1,1,45%
+15,Bloodborne,Mar-15,FromSoftware,JPN,1,1,40%
+16,Shovel Knight: Shovel of Hope,Jun-14,Yacht Club Games,USA,1,0,17%
+17,"Papers, Please",Aug-13,3909 LLC,USA,1,0,33%
+18,The Last of Us,Jun-13,Naughty Dog,USA,1,0,33%
+19,BioShock Infinite,Mar-13,Irrational Games,USA,1,0,57%
+20,Hotline Miami,Oct-12,Dennaton Games,SWE,2,0,20%
+21,Journey,Mar-12,Thatgamecompany,USA,1,1,100%
+22,Far Cry 3,Nov-19,Ubisoft Montreal,CAN,1,0,21%
+23,Persona 5,Sep-16,P-Studio,JPN,1,0,44%
+24,Tunic,Mar-22,Andrew Shouldice,CAN,1,1,100%
+25,Elden Ring,Feb-22,FromSoftware,JPN,1,1,47%
+26,The Stanley Parable (Ultra Deluxe),Apr-22,Galactic Cafe,GBR,1,0,0%
+27,Neon White,Jun-22,Angel Matrix,USA,1,0,44%
+28,Cuphead,Sep-17,Studio MDHR,CAN,2,0,14%
+29,Deathloop,Sep-21,Arkane Lyon,FRA,1,0,44%
+30,NieR: Automata,Feb-17,PlatinumGames,JPN,1,1,62%
+31,I Was a Teenage Exocolonist,Aug-22,Northway Gates,CAN,1,1,52%
+32,Immortality,Aug-22,Sam Barlow,GBR,2,2,57%
+33,Disco Elysium,Oct-19,ZA/UM,GBR,1,0,33%
+34,Hades,Dec-19,Supergiant Games,USA,1,0,44%
+35,Chicory: A Colorful World,Jun-21,Finji,USA,1,1,100%
+36,It Takes Two,Mar-21,Hazelight Studios,SWE,2,1,50%
+37,The Last of Us Part II,Jun-20,Naughty Dog,USA,2,2,45%
+38,Half-Life:Alyx,Mar-20,Valve,USA,1,1,20%
+39,Ori and the Will of the Wisps,Mar-20,Moon Studios,AUT,1,1,63%
+40,Dragon Quest XI,Jul-17,Square Enix,JPN,1,0,31%
+41,Yakuza 0,Mar-15,Ryu Ga Gotoku Studio,JPN,2,0,12%
+42,There is No Game: Wrong Dimension,Aug-20,Draw Me A Pixel,FRA,1,1,40%
+43,Divinity:Original Sin II,Sep-17,Larian Studios,BEL,1,1,36%
+44,Sekiro: Shadows Die Twice,Mar-19,FromSoftware,JPN,1,0,13%
+45,Ori and the Blind Forest,Mar-15,Moon Studios,AUT,1,1,80%
+46,Devil May Cry 5,Mar-19,Capcom,JPN,2,0,38%
+47,Fire Emblem: Three Houses,Jul-19,Intelligent Systems Koei Tecmo,JPN,1,1,45%
+48,What Remains of Edith Finch,Apr-17,Giant Sparrow,USA,1,1,35%
+49,Celeste,Jan-18,Maddy Makes Games,CAN,1,1,67%
+50,Dead Cells,Aug-18,Motion Twin,FRA,1,1,40%
+51,Hollow Knight,Feb-17,Team Cherry,AUS,1,1,50%
+52,Night in the Woods,Feb-17,Secret Lab,AUT,1,1,67%
+53,Bayonetta 2,Sep-14,PlatinumGames,JPN,1,1,27%
+54,Broken Age,Jan-14,Double Fine Productions,USA,2,1,44%
+55,Metal Gear Solid V: The Phantom Pain,Sep-15,Kojima Productions,JPN,1,0,20%
+56,The Swapper,May-13,Facepalm Games,FIN,1,1,67%
+57,Owlboy,Nov-16,D-Pad Studio,NOR,1,0,0%
+58,Dark Souls 2,Mar-14,FromSoftware,JPN,1,1,60%
+59,The Binding of Isaac: Rebirth,Nov-14,Nicalis,USA,1,0,36%
+60,Child of Light,Apr-14,Ubisoft Montreal,CAN,1,1,54%
+61,Florence,Feb-18,Mountains,USA,1,1,50%
+62,Marvel's Spider-Man: Miles Morales,Nov-20,Insomniac Games,USA,1,0,42%
+63,Kena: Bridge of Spirits,Sep-21,Ember Lab,USA,1,1,50%

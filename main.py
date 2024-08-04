@@ -5,6 +5,7 @@ df = pd.read_csv(games_dataset_path)
 
 columns_to_keep = [
     'Title', 
+    'Release',
     'Developer', 
     'Country', 
     'Protagonist', 
