@@ -4,7 +4,9 @@ games_dataset_path = 'data/raw/games.grivg.csv'
 df = pd.read_csv(games_dataset_path)
 
 columns_to_keep = [
+    'Game_Id',
     'Title', 
+    'Release',
     'Developer', 
     'Country', 
     'Protagonist', 
