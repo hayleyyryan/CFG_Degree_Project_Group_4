@@ -167,3 +167,4 @@ sexualization.csv
 # Node packages for the Github Pages documentation
 docs/node_modules
 node_modules
+eslint.config.mjs
