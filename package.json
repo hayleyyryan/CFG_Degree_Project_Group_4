@@ -2,5 +2,11 @@
   "dependencies": {
     "react-router-dom": "^6.26.1",
     "web-vitals": "^4.2.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.9.0"
   }
 }
