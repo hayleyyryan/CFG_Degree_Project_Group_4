@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+/* App.css */
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #FFFFFF;
+    --dark-color: #1a1a1a;
+    --light-color: #f9f9f9;
+    --dark-bg: #333;
+    --dark-text: #f9f9f9;
+    --light-bg: #ffffff;
+    --light-text: #1a1a1a;
+    --font-family: 'Roboto', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    margin: 0;
+    font-family: var(--font-family);
+    background-color: var(--light-bg);
+    color: var(--light-text);
+    transition: background-color 0.3s, color 0.3s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header, .footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem;
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: bold;
+    transition: color 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link:hover {
+    color: var(--dark-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content {
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: var(--light-bg);
+    color: var(--light-text);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.content:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: darken(var(--primary-color), 10%);
+    transform: scale(1.05);
+}
+
+.dark-mode {
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
+}
+
+.dark-mode .content {
+    background-color: var(--dark-color);
+    color: var(--dark-text);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .header, .dark-mode .footer {
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
+}
+
+.dark-mode .nav-link {
+    color: var(--dark-text);
+}
+
+.dark-mode .nav-link:hover {
+    color: var(--secondary-color);
 }
