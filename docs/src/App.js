@@ -15,10 +15,10 @@ function App() {
                 <Header />
                 <main>
                     <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/overview" element={<Overview />} />
-                        <Route path="/data-analysis" element={<DataAnalysis />} />
-                        <Route path="/results" element={<Results />} />
+                        <Route path="/CFG_Degree_Project_Group_4/" element={<Home />} />
+                        <Route path="/CFG_Degree_Project_Group_4/overview" element={<Overview />} />
+                        <Route path="/CFG_Degree_Project_Group_4/data-analysis" element={<DataAnalysis />} />
+                        <Route path="/CFG_Degree_Project_Group_4/results" element={<Results />} />
                     </Routes>
                 </main>
                 <Footer />
