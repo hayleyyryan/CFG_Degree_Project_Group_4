@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CFG_Degree_Project_Group_4/static/css/main.c2ff95be.css",
+    "main.js": "/CFG_Degree_Project_Group_4/static/js/main.3492251c.js",
+    "static/js/488.8f425bb0.chunk.js": "/CFG_Degree_Project_Group_4/static/js/488.8f425bb0.chunk.js",
+    "index.html": "/CFG_Degree_Project_Group_4/index.html",
+    "main.c2ff95be.css.map": "/CFG_Degree_Project_Group_4/static/css/main.c2ff95be.css.map",
+    "main.3492251c.js.map": "/CFG_Degree_Project_Group_4/static/js/main.3492251c.js.map",
+    "488.8f425bb0.chunk.js.map": "/CFG_Degree_Project_Group_4/static/js/488.8f425bb0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2ff95be.css",
+    "static/js/main.3492251c.js"
+  ]
+}
