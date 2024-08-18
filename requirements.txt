@@ -1,3 +1,7 @@
 pandas
 ipykernel
 os
+numpy
+seaborn
+datetime
+matplotlib
