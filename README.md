@@ -24,7 +24,11 @@
 
 👤 **Elisabeth Garzon, Hayley Ryan, Dea Satko, Simone Tagoe and Verena Zyla**
 
-* Github: [@ElisabethGCy, @hayleyyryan, deasatko, tagsim, ZylaCode](https://github.com/ElisabethGCy, https://github.com/hayleyyryan, https://github.com/deasatko, https://github.com/tagsim, https://github.com/ZylaCode)
+* Github: [@ElisabethGCy](https://github.com/ElisabethGCy)
+[@hayleyyryan](https://github.com/hayleyyryan)
+[@deasatko](https://github.com/deasatko)
+[@tagsim](https://github.com/tagsim)
+[@ZylaCode](https://github.com/ZylaCode)
 
 ## Show your support
 
