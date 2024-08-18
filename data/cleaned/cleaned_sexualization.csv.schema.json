@@ -1,0 +1,37 @@
+{
+  "fields": [
+    {
+      "name": "character_id",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Sexualized_clothing",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Trophy",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Damsel in Distress",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Sexualized Cutscenes",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Total",
+      "type": "integer",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "columns": [
+    {
+      "minWidth": 40,
+      "download": false,
+      "formatter": "rowSelection",
+      "titleFormatter": "rowSelection",
+      "resizable": true,
+      "headerSort": false,
+      "width": 52
+    },
+    {
+      "field": "character_id",
+      "title": "character_id",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 138
+    },
+    {
+      "field": "Sexualized_clothing",
+      "title": "Sexualized_clothing",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 186
+    },
+    {
+      "field": "Trophy",
+      "title": "Trophy",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 102
+    },
+    {
+      "field": "Damsel in Distress",
+      "title": "Damsel in Distress",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 177
+    },
+    {
+      "field": "Sexualized Cutscenes",
+      "title": "Sexualized Cutscenes",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 199
+    },
+    {
+      "field": "Total",
+      "title": "Total",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 455
+    }
+  ]
+}
