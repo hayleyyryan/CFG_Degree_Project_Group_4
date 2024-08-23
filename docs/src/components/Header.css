@@ -4,6 +4,11 @@
     padding: 20px 0;
     text-align: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
 }
 
 .header h1 {

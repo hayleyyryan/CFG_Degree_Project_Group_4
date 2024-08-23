@@ -1,22 +1,26 @@
-/* Home.css */
-.fade-in {
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-}
-
-.delay-1 {
-    animation-delay: 0.5s;
-}
-
-.delay-2 {
-    animation-delay: 1s;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
+.home-page {
+    background-color: #f0f0f0; /* Light grey background */
+    color: #333; /* Dark text color */
+    text-align: center;
+    padding: 2rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .welcome-section {
+    margin-bottom: 2rem;
+  }
+  
+  .welcome-section h1 {
+    font-size: 3rem;
+    color: #2c3e50; /* Darker text color */
+  }
+  
+  .welcome-section p {
+    font-size: 1.25rem;
+    color: #34495e; /* Slightly lighter text color */
+  }
+  

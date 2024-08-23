@@ -14,19 +14,19 @@ function Header() {
         <header className="header">
             <h1>Representation of non-male characters in games</h1>
             <nav>
-                <NavLink exact="true" to="/" className="nav-link" activeClassName="active-link">
+                <NavLink exact="true" to="/main/home" className="nav-link" activeClassName="active-link">
                     Home
                 </NavLink>
-                <NavLink to="/overview" className="nav-link" activeClassName="active-link">
+                <NavLink to="/main/overview" className="nav-link" activeClassName="active-link">
                     Overview
                 </NavLink>
-                <NavLink to="/data-analysis" className="nav-link" activeClassName="active-link">
+                <NavLink to="/main/data-analysis" className="nav-link" activeClassName="active-link">
                     Data & Analysis
                 </NavLink>
-                <NavLink to="/results" className="nav-link" activeClassName="active-link">
+                <NavLink to="/main/results" className="nav-link" activeClassName="active-link">
                     Results
                 </NavLink>
-                <NavLink to="/conclusion" className="nav-link" activeClassName="active-link">
+                <NavLink to="/main/conclusion" className="nav-link" activeClassName="active-link">
                     Conclusion
                 </NavLink>
             </nav>

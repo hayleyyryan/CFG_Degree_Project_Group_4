@@ -2,6 +2,9 @@
     background-color: #3498db;
     color: white;
     padding: 10px 0;
-    text-align: center;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    position: fixed;
+    bottom: 0;
 }
