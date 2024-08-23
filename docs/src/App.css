@@ -98,7 +98,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #17191d;
+    background-color: #000;
     color: white;
     font-family: 'Press Start 2P', cursive;
   }
@@ -114,13 +114,10 @@ button:hover {
     color: #0f0;
     background-color: #000;
     border: 2px solid #0f0;
-    border-radius: 8px;
+    border-radius: 15px;
     cursor: pointer;
     text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    font-family: 'Press Start 2P', cursive;
     box-shadow: 0 0 10px #0f0;
     transition: transform 0.3s;
   }
