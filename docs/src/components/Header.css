@@ -1,32 +1,61 @@
+/* Header.css */
 .header {
-    background-color: #3498db;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 100%;
-    left: 0;
-    position: fixed;
-    top: 0;
+  background-color: #f8f9fa; /* Light background for header */
+  color: #343a40; /* Dark text color for readability */
+  padding: 20px; /* Add padding for spacing */
+  border-bottom: 1px solid #dee2e6; /* Subtle border for separation */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for a lifted effect */
+  position: relative; /* Ensure it is positioned relative to its container */
+  text-align: center; /* Center text horizontally */
 }
 
-.header h1 {
-    margin: 0;
-    font-size: 2.5em;
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto; /* Center the content */
+  display: flex;
+  flex-direction: column; /* Stack title and nav vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Center text within header-content */
 }
 
-nav {
-    margin-top: 10px;
+.header-title-container {
+  display: flex;
+  flex-direction: column; /* Stack title and toggle vertically */
+  align-items: center; /* Center title and toggle horizontally */
+  width: 100%;
+  margin-bottom: 30px; /* Increased space between title and navigation */
 }
 
-nav a {
-    margin: 0 15px;
-    color: white;
-    font-weight: 600;
-    transition: color 0.3s;
+.header-title {
+  font-family: 'Arial', sans-serif; /* Use a professional font */
+  font-size: 2rem; /* Slightly larger font size for better emphasis */
+  margin: 0;
+  color: #343a40; /* Dark text color for better readability */
 }
 
-nav a:hover, .active-link {
-    color: #2ecc71;
+.theme-toggle {
+  position: absolute; /* Position it in the top-left corner */
+  top: 20px; /* Adjust to align with padding */
+  left: 20px; /* Adjust to align with padding */
+}
+
+.nav {
+  display: flex;
+  justify-content: center; /* Center the nav items horizontally */
+  width: 100%; /* Full width of the header */
+}
+
+.nav a {
+  text-decoration: none;
+  color: #007bff; /* Primary color for navigation links */
+  font-family: 'Arial', sans-serif; /* Use a professional font */
+  font-size: 1.1rem; /* Slightly larger font size for better readability */
+  margin: 0 15px; /* Space between navigation links */
+  transition: color 0.3s, transform 0.3s; /* Smooth color and transform transitions */
+}
+
+.nav a:hover {
+  text-decoration: none; /* No underline on hover for cleaner look */
+  color: #0056b3; /* Darker color on hover for better contrast */
+  transform: scale(1.05); /* Slightly enlarge the link on hover */
 }

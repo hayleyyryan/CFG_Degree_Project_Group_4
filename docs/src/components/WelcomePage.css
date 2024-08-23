@@ -1,0 +1,16 @@
+/* WelcomePage.css */
+.welcome-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #000000; /* Background color for welcome page */
+    color: #333; /* Default text color */
+  }
+  
+  .welcome-page h1 {
+    font-size: 2rem;
+    color: #fff !important;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
