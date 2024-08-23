@@ -1,0 +1,46 @@
+/* CollapsibleCard.css */
+
+.collapsible-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .collapsible-card-header {
+    background-color: #f4f4f4;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s;
+  }
+  
+  .collapsible-card-header:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .toggle-icon {
+    font-size: 24px;
+    transition: transform 0.3s;
+  }
+  
+  .toggle-icon.open {
+    transform: rotate(45deg);
+  }
+  
+  .collapsible-card-content {
+    padding: 15px;
+    display: none;
+    background-color: #fff;
+    transition: max-height 0.3s ease;
+  }
+  
+  .collapsible-card-content.open {
+    display: block;
+  }
+  

@@ -1,10 +1,12 @@
 .footer {
-    background-color: #3498db;
-    color: white;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    left: 0;
     position: fixed;
     bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Adjust based on your footer's height */
+    background-color: #4485af;
+    color: #fff;
+    text-align: center;
+    line-height: 60px; /* Center the text vertically */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for separation */
 }

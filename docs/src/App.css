@@ -40,16 +40,11 @@ body {
   .main-content {
     flex: 1; /* Allow the main content to grow */
     overflow-y: auto; /* Enable scrolling for the main content */
+    overflow: auto;
     padding: 20px;
-    padding-top: 80px; /* Add padding-top to avoid content hiding under the header */
     background-color: #f4f4f4; /* Background color for the content area */
     z-index: 1; /* Ensure content stays below the header */
   }
-  
-  /* Ensure header and footer are styled properly */
-  /* header, footer {
-    flex-shrink: 0; /* Prevents shrinking of header and footer */
-
 
 button {
     padding: 10px 20px;
@@ -83,3 +78,4 @@ button:hover {
 .dark-mode .nav-link:hover {
     color: var(--secondary-color);
 }
+

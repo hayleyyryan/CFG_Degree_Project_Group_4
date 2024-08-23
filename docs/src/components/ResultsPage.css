@@ -1,0 +1,73 @@
+/* ResultsPage.css */
+
+/* General styles for the ResultsPage */
+.results-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #f5f5f5; /* Light background for light mode */
+    color: #333; /* Dark text for light mode */
+  }
+  
+  .results-page.dark-mode {
+    background-color: #1e1e1e; /* Dark background for dark mode */
+    color: #e0e0e0; /* Light text for dark mode */
+  }
+  
+  .results-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .results-page .collapsible-card {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden; /* Ensure content doesn't overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .results-page .collapsible-card-header {
+    background-color: #444; /* Darker background for header */
+    color: #fff; /* White text for contrast */
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+    cursor: pointer; /* Indicate that the header is clickable */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+  }
+  
+  .results-page.dark-mode .collapsible-card-header {
+    background-color: #333; /* Dark background for dark mode header */
+  }
+  
+  .results-page .collapsible-card-content {
+    padding: 15px;
+    background-color: #fff; /* Light background for content */
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .results-page.dark-mode .collapsible-card-content {
+    background-color: #2c2c2c; /* Dark background for dark mode content */
+  }
+  
+  .results-page .collapsible-card-content p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  /* Toggle icon for collapse/expand state */
+  .results-page .toggle-icon {
+    font-size: 24px;
+    color: #fff;
+    transition: transform 0.3s ease;
+  }
+  
+  .results-page.dark-mode .toggle-icon {
+    color: #e0e0e0; /* Light color for dark mode */
+  }
+  
+  .results-page .toggle-icon.open {
+    transform: rotate(45deg); /* Rotate icon when open */
+  }
+  

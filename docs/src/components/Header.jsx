@@ -34,6 +34,9 @@ const Header = ({ onToggleTheme, isDark }) => {
           <Link to="/main/results">
             Results
           </Link>
+          <Link to="/main/conclusion">
+            Conclusion
+          </Link>
         </nav>
       </div>
     </header>

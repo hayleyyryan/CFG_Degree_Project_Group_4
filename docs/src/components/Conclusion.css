@@ -1,0 +1,52 @@
+.conclusion-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5; /* Light background for light mode */
+    padding: 20px;
+  }
+  
+  .conclusion-page.dark-mode {
+    background-color: #1e1e1e; /* Dark background for dark mode */
+  }
+  
+  .conclusion-container {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    padding: 20px;
+    background-color: #ffffff; /* White background for content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    color: #333; /* Dark text for light mode */
+    margin: auto; /* Center the container horizontally */
+    display: block; /* Ensure block display */
+  }
+  
+  .conclusion-page.dark-mode .conclusion-container {
+    background-color: #2c2c2c; /* Dark background for dark mode */
+    color: #e0e0e0; /* Light text for dark mode */
+  }
+  
+  .conclusion-container h1 {
+    font-size: 2.5em; /* Larger heading */
+    margin-bottom: 20px;
+    text-align: center;
+    color: #444; /* Darker text for light mode */
+  }
+  
+  .conclusion-page.dark-mode .conclusion-container h1 {
+    color: #e0e0e0; /* Light text for dark mode */
+  }
+  
+  .conclusion-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px; /* Space between paragraphs */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .conclusion-page.dark-mode .conclusion-container p {
+    color: #e0e0e0; /* Light text for dark mode */
+  }
+  

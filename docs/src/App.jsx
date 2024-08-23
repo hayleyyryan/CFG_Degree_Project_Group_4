@@ -8,6 +8,7 @@ import Home from './components/Home';
 import ProjectOverview from './components/Overview';
 import DataAnalysis from './components/DataAnalysis';
 import Results from './components/Results';
+import Conclusion from './components/Conclusion';
 import LandingPage from './components/LandingPage';
 import WelcomePage from './components/WelcomePage';
 import './App.css';
@@ -49,6 +50,7 @@ function App() {
           <Route path="overview" element={<ProjectOverview />} />
           <Route path="data-analysis" element={<DataAnalysis />} />
           <Route path="results" element={<Results />} />
+          <Route path="conclusion" element={<Conclusion />} />
         </Route>
       </Routes>
     </Router>

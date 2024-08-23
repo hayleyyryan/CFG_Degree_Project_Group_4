@@ -1,0 +1,34 @@
+.project-overview {
+    padding: 0px 20px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
+.dataanalysis-title {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: var(--title-color); /* Use a CSS variable */
+    margin-bottom: 40px;
+  }
+  
+  /* Card Style */
+  .nextui-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nextui-collapse {
+    background-color: #ffffff; /* Light background for accordion */
+    border: 1px solid #e0e0e0; /* Border color for items */
+    border-radius: 8px;
+  }
+  
+  .nextui-collapse-title {
+    font-family: 'Arial', sans-serif;
+    color: #333333; /* Dark text color for titles */
+  }
+  
+  .nextui-collapse-content {
+    font-family: 'Arial', sans-serif;
+    color: #666666; /* Darker text color for content */
+  }
