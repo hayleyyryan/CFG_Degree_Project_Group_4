@@ -92,7 +92,7 @@ const Home = () => {
       </Grid.Container>
 
       {/* Sources Section */}
-      <Card className="sources-card" variant="bordered" css={{ mw: "100%", marginTop: '20px' }}>
+      <Card className="sources-card" variant="bordered" css={{marginTop: '20px' }}>
         <Card.Body>
           <Text h2>Sources</Text>
           <SourceCards />
