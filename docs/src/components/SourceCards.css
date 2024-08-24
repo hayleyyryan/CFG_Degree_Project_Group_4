@@ -1,0 +1,38 @@
+/* SourceCards.css */
+.source-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Space between cards */
+    justify-content: center; /* Center cards horizontally */
+  }
+  
+  .source-card {
+    width: 220px; /* Adjust width to fit content */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensure image fits within the card */
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 100px; /* Adjust height as needed */
+    object-fit: cover; /* Ensure image covers the space */
+    border-bottom: 1px solid #ddd; /* Light border below image */
+  }
+  
+  .card-body {
+    text-align: center; /* Center text inside the card */
+  }
+  
+  .card-footer {
+    text-align: center; /* Center footer content */
+  }
+  
+  .card-footer a {
+    color: #0072f5; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .card-footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  

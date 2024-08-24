@@ -6,6 +6,7 @@ import gate from './gate.png';
 import meteor from './meteor.png';
 import money from './money.png';
 import './Home.css';
+import SourceCards from './SourceCards';
 
 const Home = () => {
   return (
@@ -94,53 +95,54 @@ const Home = () => {
       <Card className="sources-card" variant="bordered" css={{ mw: "100%", marginTop: '20px' }}>
         <Card.Body>
           <Text h2>Sources</Text>
+          <SourceCards />
           <Spacer y={1} />
           <div className="sources-content">
-            {/* Research Papers/Websites */}
-            <div className="source-category">
-              <Text h3>Research Papers/Websites:</Text>
-              <ul>
-                <li><a href="https://criticalgamers.com" target="_blank" rel="noopener noreferrer">Critical Gamers</a></li>
-                <li>
-                  <a href="https://catalog.example.com/influence-of-active-video-game-play" target="_blank" rel="noopener noreferrer">
-                    Data from: The influence of active video game play upon physical activity and screen-based activities in sedentary children
-                  </a>
-                </li>
-                <li>
-                  <a href="https://thedataschooldownunder.com/dashboard-week01" target="_blank" rel="noopener noreferrer">
-                    Dashboard Week #01: IGDB and Gender Representation in Games
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.psychologytoday.com/intl/blog/media-spotlight/202101/how-gamers-use-video-games-explore-their-gender-identity" target="_blank" rel="noopener noreferrer">
-                    How Gamers Use Video Games to Explore Their Gender Identity | Psychology Today United Kingdom
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.intomore.com/gaming/video-game-character-creators-improving-nonbinary-players" target="_blank" rel="noopener noreferrer">
-                    Video Game Character Creators are Improving for Nonbinary Players - INTO
-                  </a>
-                </li>
-                <li>
-                  <a href="https://example.com/evolution-of-female-character-representations.pdf" target="_blank" rel="noopener noreferrer">
-                    The Evolution of Female Character Representations in Video Games from a Feminism Perspective (PDF)
-                  </a>
-                </li>
-                <li>
-                  <a href="https://news.gla.ac.uk/archive/2023/may/largest-study-of-video-games-reveals-men-say-twice-as-much-as-women" target="_blank" rel="noopener noreferrer">
-                    University of Glasgow - Largest study of video games reveals men say twice as much as women
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            {/* Dataset */}
+                        {/* Dataset */}
             <div className="source-category">
               <Text h3>Dataset:</Text>
               <ul>
                 <li>
-                  <a href="https://example.com/gender-representation-dataset" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.kaggle.com/datasets/br33sa/gender-representation-in-video-games" target="_blank" rel="noopener noreferrer">
                     Gender Representation in Video Games
+                  </a>
+                </li>
+              </ul>
+            </div>
+            
+            {/* Research Papers/Websites */}
+            <div className="source-category">
+              <Text h3>Research Papers/Websites:</Text>
+              <ul>
+                <li><a href="https://criticalgamers.humspace.ucla.edu/">Gender representation in Video Games - Critical Gamers</a></li>
+                <li>
+                  <a href="https://catalog.data.gov/dataset/data-from-the-influence-of-active-video-game-play-upon-physical-activity-and-screen-based--33694">
+                   The influence of active video game play upon physical activity and screen-based activities in sedentary children - USDA
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.thedataschool.com.au/j-tay/dashboard-week-01/">
+                    IGDB and Gender Representation in Games - J Tay (The Data School)
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.psychologytoday.com/gb/blog/video-game-health/202302/how-gamers-use-video-games-to-explore-their-gender-identity">
+                    How Gamers Use Video Games to Explore Their Gender Identity - Andrew Fishman (Psychology Today)
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.intomore.com/culture/video-game-character-creators-are-improving-for-nonbinary-players/" target="_blank" rel="noopener noreferrer">
+                    Video Game Character Creators are Improving for Nonbinary Players - Latonya Pennington (Into)
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.researchgate.net/publication/376307523_The_Evolution_of_Female_Character_Representations_in_Video_Games_from_a_Feminism_Perspective">
+                    The Evolution of Female Character Representations in Video Games from a Feminism Perspective - Lan Lao (The Wee Kim Wee School of Communication)
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.gla.ac.uk/news/archiveofnews/2023/may/headline_966589_en.html" target="_blank" rel="noopener noreferrer">
+                    Largest study of video games reveals men say twice as much as women - University of Glasgow
                   </a>
                 </li>
               </ul>
@@ -151,18 +153,18 @@ const Home = () => {
               <Text h3>Video/Media:</Text>
               <ul>
                 <li>
-                  <a href="https://www.youtube.com/watch?v=X6p5AZp7r_Q" target="_blank" rel="noopener noreferrer">
-                    [YouTube] Video Analysis 1
+                  <a href="https://www.youtube.com/watch?v=X6p5AZp7r_Q">
+                  Damsel in Distress: Part 1 - Tropes vs Women in Video Games
                   </a>
                 </li>
                 <li>
                   <a href="https://www.youtube.com/watch?v=SReNR_PdPXo" target="_blank" rel="noopener noreferrer">
-                    [YouTube] Video Analysis 2
+                    Are there Non-Binary Characters in Video Games? Yes!
                   </a>
                 </li>
                 <li>
                   <a href="https://www.youtube.com/watch?v=f119r3VHBqw" target="_blank" rel="noopener noreferrer">
-                    [YouTube] Video Analysis 3
+                    Why Don't Video Games Let You Be Trans?
                   </a>
                 </li>
               </ul>
