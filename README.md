@@ -1,11 +1,7 @@
-<h1 align="center">Welcome to CFG_Degree_Project_Group_4 👋</h1>
-<p>
-  <a href="https://hayleyyryan.github.io/CFG_Degree_Project_Group_4/" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
+<h1 align="center">Welcome to Group 4's Data Analysis Project👋</h1>
 </p>
 
-> A data analysis project for the CFGDegree Summer 24 Data Science Cohort, exploring the role of non-male characters in games from the year 2012 to 2022.
+> This is a data analysis project for the CFGDegree Summer 24 Data Science Cohort, exploring the role of non-male characters in games from the year 2012 to 2022.
 
 ## Install
 
