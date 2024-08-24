@@ -5,8 +5,8 @@ import './Conclusion.css'; // Import custom styles
 
 const Conclusion = () => {
   return (
-    <Container className="conclusion-container" css="max-width: 900px;">
-      <Card className="conclusion-card">
+    <Container>
+      <Card css={{ p: "$6", mw: "800px", margin: "0 auto", mb: "$6" }}>
       <Text h1 className="overview-title">Conclusion</Text>
         <Card.Body>
           <Text className="conclusion-text">

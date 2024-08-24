@@ -2,14 +2,14 @@
 import React from 'react';
 import CollapsibleCard from './CollapsibleCard';
 import {Text, Container, Spacer, Card} from '@nextui-org/react';
-import './ResultsPage.css'; // Import any additional styles
+import './ResultsPage.css'; 
 
 const Results = () => {
   return (
-    <Container className="results-page" css="max-width: 900px;">
+    <Container css={{mw: "800px"}}>
 
      <Spacer y={1} />
-      <Card css={{ p: "$6", margin: "0 auto", mb: "$6" }}>
+     <Card css={{ p: "$6", mb: "$6" }}>
         <Card.Body>
           <Text>
           <Text h1 className="overview-title">Results</Text>
@@ -18,7 +18,7 @@ const Results = () => {
         </Card.Body>
       </Card>
       
-      <CollapsibleCard
+      <CollapsibleCard 
         title="What trend can we see in the number of non-male protagonists over time?"
         content="Over the ten year period between 2012 and 2022 there has been a rise in non-male protagonists. This has not been a consistent rise, with steep falls in 2016 and 2019. The three year ‘pattern’ of falls was not so steep for 2022 at around 67% non-male protagonists, bucking the cycle of a three year drop. It can be said that the steep falls are also rising over time - which allows for some level of optimism but demonstrates why thinking about character’s genders in an expansive way is so important. It must be mentioned that as non-male groups (Female, Non-Binary and Custom), there has been a more significant rise in female characters within the non-male group. Again there is much work to be done, although the highest character count for Non-Binary being for the Protagonist role is not to be ignored."
       />

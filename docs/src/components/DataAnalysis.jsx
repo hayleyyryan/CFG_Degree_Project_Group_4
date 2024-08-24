@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Collapse, Text, Container, Spacer, Card, Link } from '@nextui-org/react';
+import { Collapse, Text, Container, Spacer, Card } from '@nextui-org/react';
 
 const DataAnalysis = () => {
   const [activeKey, setActiveKey] = useState(null);
@@ -9,7 +9,7 @@ const DataAnalysis = () => {
   };
 
   return (
-    <Container className="data-analysis">
+    <Container>
 
       <Spacer y={1} />
       <Card css={{ p: "$6", mw: "800px", margin: "0 auto", mb: "$6" }}>
@@ -155,7 +155,7 @@ Changing of ‘Id’ column to ‘Character_Id’ to ensure the seamless merging
             </Text>
           </Collapse>
 
-          <Collapse title="Data Visualisation Process" expanded={activeKey === '5'} onClick={() => handleToggle('5')}>
+          <Collapse title="Data Visualiation Process" expanded={activeKey === '5'} onClick={() => handleToggle('5')}>
           <Text>
               Based on the findings from the data exploration and the narration outline, we were able to create insightful visualisations using Matplotlib, a library for visualisations in Python, as well as Seaborn, a library that builds on Matplotlib.
             </Text>
