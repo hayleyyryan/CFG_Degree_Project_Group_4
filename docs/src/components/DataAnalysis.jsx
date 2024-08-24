@@ -9,8 +9,8 @@ const DataAnalysis = () => {
   };
 
   return (
-    <Container>
-      <Text h1 className="dataanalysis-title">Data Analysis</Text>
+    <Container className="data-analysis" css={{ maxWidth: '800px' }}>
+     <Text h1 className="overview-title">Data Analysis</Text>
       <Spacer y={1} />
       <Card css={{ p: "$6", mw: "800px", margin: "0 auto", mb: "$6" }}>
         <Card.Body>

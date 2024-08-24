@@ -1,12 +1,14 @@
 /* Header.css */
 .header {
-  background-color: #f8f9fa; /* Light background for header */
-  color: #343a40; /* Dark text color for readability */
   padding: 20px; /* Add padding for spacing */
-  border-bottom: 1px solid #dee2e6; /* Subtle border for separation */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for a lifted effect */
   position: relative; /* Ensure it is positioned relative to its container */
   text-align: center; /* Center text horizontally */
+}
+
+.header.dark-mode {
+  background-color: #1e1e1e; /* Dark mode background */
+  color: #e0e0e0; /* Dark mode text color */
 }
 
 .header-content {
@@ -24,38 +26,46 @@
   align-items: center; /* Center title and toggle horizontally */
   width: 100%;
   margin-bottom: 30px; /* Increased space between title and navigation */
+  position: relative;
 }
 
 .header-title {
-  font-family: 'Arial', sans-serif; /* Use a professional font */
+  font-family: 'Arial', sans-serif;
   font-size: 2rem; /* Slightly larger font size for better emphasis */
   margin: 0;
-  color: #343a40; /* Dark text color for better readability */
 }
 
 .theme-toggle {
-  position: absolute; /* Position it in the top-left corner */
-  top: 20px; /* Adjust to align with padding */
-  left: 20px; /* Adjust to align with padding */
+  position: absolute;
+  top: 20px;
+  left: 20px; 
 }
 
 .nav {
   display: flex;
-  justify-content: center; /* Center the nav items horizontally */
-  width: 100%; /* Full width of the header */
+  justify-content: center; 
+  width: 100%; 
 }
 
-.nav a {
+.nav-link {
   text-decoration: none;
-  color: #007bff; /* Primary color for navigation links */
   font-family: 'Arial', sans-serif; /* Use a professional font */
   font-size: 1.1rem; /* Slightly larger font size for better readability */
   margin: 0 15px; /* Space between navigation links */
+  color: #6b91bd; /* Primary color */
   transition: color 0.3s, transform 0.3s; /* Smooth color and transform transitions */
 }
 
-.nav a:hover {
+.nav-link:hover {
   text-decoration: none; /* No underline on hover for cleaner look */
-  color: #0056b3; /* Darker color on hover for better contrast */
   transform: scale(1.05); /* Slightly enlarge the link on hover */
+}
+
+/* Dark Mode Styles */
+.header.dark-mode .nav-link {
+  color: #e0e0e0; /* Light text for dark mode */
+}
+
+.header.dark-mode .nav-link:hover {
+  color: rgb(240, 101, 149); /* Hover color in dark mode */
 }

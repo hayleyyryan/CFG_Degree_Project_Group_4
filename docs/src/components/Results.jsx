@@ -1,12 +1,13 @@
 // ResultsPage.js
 import React from 'react';
 import CollapsibleCard from './CollapsibleCard';
+import {Text, Container} from '@nextui-org/react';
 import './ResultsPage.css'; // Import any additional styles
 
 const Results = () => {
   return (
-    <div className={`results-page`}>
-      <h1>Results</h1>
+    <Container className="results-page" css={{ maxWidth: '800px' }}>
+     <Text h1 className="overview-title">Results</Text>
       
       <CollapsibleCard
         title="What trend can we see in the number of non-male protagonists over time?"
@@ -47,7 +48,7 @@ const Results = () => {
         title="Which age range results in a character (across genders) being most likely to function as a romantic interest?"
         content="Female adult characters are most likely to assume the role of romantic interest in our dataset overall. Adult females are five times more likely to be a romantic interest than Adult males. This is followed by Young Adult, although their counts were very few in number (2 for Young Adult Male, 1 for Young Adult Female) Male Young Adults out-numbered Females marginally. Middle Age, Unknown and Young Adult Female (mentioned above) characters each had a count of one for Romantic Interest."
       />
-    </div>
+    </Container>
   );
 };
 

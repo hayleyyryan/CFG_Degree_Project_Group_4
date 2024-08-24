@@ -1,27 +1,57 @@
+/* Root Variables */
 :root {
-    --primary-color: #6292ac;
-    --secondary-color: #ffffff;
     --dark-color: #1a1a1a;
-    --light-color: #f9f9f9;
-    --dark-bg: #000000;
-    --dark-text: #f9f9f9;
-    --light-bg: #ffffff;
-    --light-text: #1a1a1a;
     --font-family: 'Roboto', sans-serif;
 }
 
+/* Body Styles */
 body {
     margin: 0;
     font-family: var(--font-family);
     background-color: var(--light-bg);
-    color: var(--light-text);
     transition: background-color 0.3s, color 0.3s;
 }
 
+/* Dark Mode Styles */
+.dark-mode body {
+    background-color: var(--dark-bg);
+}
+
+/* Main App Container */
+.main-app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full height of the viewport */
+}
+
+/* Main Content Styles */
+.main-content {
+    flex: 1; /* Allow the main content to grow */
+    overflow-y: auto; /* Enable scrolling for the main content */
+    padding: 20px;
+    background-color: var(--light-bg); /* Default background color */
+    z-index: 1; /* Ensure content stays below the header */
+}
+
+/* Dark Mode Main Content */
+.dark-mode .main-content {
+    background-color: var(--dark-bg);
+}
+
+/* Header and Footer */
+.header, .footer {
+    background-color: var(--light-bg);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode .header, .dark-mode .footer {
+    background-color: var(--dark-bg);
+}
+
+/* Navigation Links */
 .nav-link {
     margin: 0 15px;
     text-decoration: none;
-    color: var(--secondary-color);
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -30,22 +60,7 @@ body {
     color: var(--dark-color);
 }
 
-/* MainApp.css */
-.main-app-container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh; /* Full height of the viewport */
-  }
-  
-  .main-content {
-    flex: 1; /* Allow the main content to grow */
-    overflow-y: auto; /* Enable scrolling for the main content */
-    overflow: auto;
-    padding: 20px;
-    background-color: #f4f4f4; /* Background color for the content area */
-    z-index: 1; /* Ensure content stays below the header */
-  }
-
+/* Button Styling */
 button {
     padding: 10px 20px;
     background-color: var(--primary-color);
@@ -60,22 +75,3 @@ button:hover {
     background-color: #507990; /* Slightly darker shade */
     transform: scale(1.05);
 }
-
-.dark-mode {
-    background-color: var(--dark-bg);
-    color: var(--dark-text);
-}
-
-.dark-mode .header, .dark-mode .footer {
-    background-color: var(--dark-bg);
-    color: var(--dark-text);
-}
-
-.dark-mode .nav-link {
-    color: var(--dark-text);
-}
-
-.dark-mode .nav-link:hover {
-    color: var(--secondary-color);
-}
-
