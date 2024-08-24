@@ -6,7 +6,7 @@ import './ResultsPage.css'; // Import any additional styles
 
 const Results = () => {
   return (
-    <Container className="results-page">
+    <Container className="results-page" css="max-width: 900px;">
 
      <Spacer y={1} />
       <Card css={{ p: "$6", margin: "0 auto", mb: "$6" }}>
