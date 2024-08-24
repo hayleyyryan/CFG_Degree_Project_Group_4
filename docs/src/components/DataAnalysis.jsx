@@ -155,7 +155,7 @@ Changing of ‘Id’ column to ‘Character_Id’ to ensure the seamless merging
             </Text>
           </Collapse>
 
-          <Collapse title="Data Visualization Process" expanded={activeKey === '5'} onClick={() => handleToggle('5')}>
+          <Collapse title="Data Visualisation Process" expanded={activeKey === '5'} onClick={() => handleToggle('5')}>
           <Text>
               Based on the findings from the data exploration and the narration outline, we were able to create insightful visualisations using Matplotlib, a library for visualisations in Python, as well as Seaborn, a library that builds on Matplotlib.
             </Text>
