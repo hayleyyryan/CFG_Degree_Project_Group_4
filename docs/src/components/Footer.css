@@ -2,10 +2,10 @@
 .footer {
     width: 100%;
     padding: 20px 0;
+    display: flex;
   }
   
   .footer-container {
-    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@
     align-items: center;
     text-decoration: none;
     font-size: 14px;
-    color: #0072f5; /* Primary color for the link */
+    color: #4584cb; /* Primary color for the link */
     margin-top: 8px;
   }
   
