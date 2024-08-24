@@ -55,31 +55,31 @@ const Home = () => {
               <Spacer y={1} />
               <Text>Meet the contributors:</Text>
               <div className="contributor-list">
-                <a href="#" className="contributor-wrapper">
+                <a href="https://github.com/deasatko" className="contributor-wrapper">
                   <div className="contributor">
                     <Image src={axe} alt="Contributor Icon" width={40} height={40} />
                     <Text>Dea Satko</Text>
                   </div>
                 </a>
-                <a href="#" className="contributor-wrapper">
+                <a href="https://github.com/ElisabethGCy" className="contributor-wrapper">
                   <div className="contributor">
                     <Image src={crystalball} alt="Contributor Icon" width={40} height={40} />
                     <Text>Elisabeth Garzon</Text>
                   </div>
                 </a>
-                <a href="#" className="contributor-wrapper">
+                <a href="https://github.com/hayleyyryan/" className="contributor-wrapper">
                   <div className="contributor">
                     <Image src={gate} alt="Contributor Icon" width={40} height={40} />
                     <Text>Hayley Ryan</Text>
                   </div>
                 </a>
-                <a href="#" className="contributor-wrapper">
+                <a href="https://github.com/tagsim" className="contributor-wrapper">
                   <div className="contributor">
                     <Image src={meteor} alt="Contributor Icon" width={40} height={40} />
                     <Text>Simone Tagoe</Text>
                   </div>
                 </a>
-                <a href="#" className="contributor-wrapper">
+                <a href="https://github.com/ZylaCode" className="contributor-wrapper">
                   <div className="contributor">
                     <Image src={money} alt="Contributor Icon" width={40} height={40} />
                     <Text>Verena Zyla</Text>
