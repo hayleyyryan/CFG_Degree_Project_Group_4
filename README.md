@@ -20,6 +20,9 @@
 - Run `py main.py` in the root folder.
 ```
 
+# Documentation
+Our documentation outlining how we went about gathering our data, cleaning it, exploring it and creating our visualisations is hosted at [our Github docs page]([https://github.com/ElisabethGCy](https://hayleyyryan.github.io/CFG_Degree_Project_Group_4/)). Please read through to understand how we worked together as a team to deliver our data analysis.
+
 ## Authors
 
 👤 **Elisabeth Garzon, Hayley Ryan, Dea Satko, Simone Tagoe and Verena Zyla**
@@ -29,10 +32,3 @@
 [@deasatko](https://github.com/deasatko)
 [@tagsim](https://github.com/tagsim)
 [@ZylaCode](https://github.com/ZylaCode)
-
-## Show your support
-
-Give a ⭐️ if you found this project interesting!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
