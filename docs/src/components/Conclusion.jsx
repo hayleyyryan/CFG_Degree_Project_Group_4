@@ -7,11 +7,7 @@ const Conclusion = () => {
   return (
     <Container className="conclusion-container">
       <Card className="conclusion-card">
-        <Card.Header>
-          <Text h1 className="conclusion-heading">
-            Conclusion
-          </Text>
-        </Card.Header>
+      <Text h1 className="overview-title">Conclusion</Text>
         <Card.Body>
           <Text className="conclusion-text">
             Our research aims to ignite conversation within game development teams. We are driven by the desire to see games that more accurately reflect the diversity of lived experiences. This research underscores the need for developers to build upon these nuanced realities and to think creatively about gender dynamics in gaming.

@@ -6,7 +6,7 @@ import './ResultsPage.css'; // Import any additional styles
 
 const Results = () => {
   return (
-    <Container className="results-page" css={{ maxWidth: '800px' }}>
+    <Container className="results-page">
      <Text h1 className="overview-title">Results</Text>
       
       <CollapsibleCard

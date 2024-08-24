@@ -9,9 +9,9 @@ import './Home.css';
 
 const Home = () => {
   return (
-    <Container className="home-container">
+    <Container className="home-container" css={{mw: 'fit-content'}}>
       {/* Hero Section */}
-      <Card className="hero-card" variant="bordered" css={{ mw: "100%" }}>
+      <Card className="hero-card" variant="bordered">
         <Card.Body>
           <Text h1 css={{ textAlign: 'center', marginBottom: '20px' }}>Project Documentation</Text>
           <Spacer y={1} />
