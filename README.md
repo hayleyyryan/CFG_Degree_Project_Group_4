@@ -20,7 +20,7 @@
 - Run `py main.py` in the root folder.
 ```
 
-# Documentation
+## Documentation
 Our documentation outlining how we went about gathering our data, cleaning it, exploring it and creating our visualisations is hosted at [our Github docs page](https://hayleyyryan.github.io/CFG_Degree_Project_Group_4/). Please read through to understand how we worked together as a team to deliver our data analysis.
 
 ## Authors
