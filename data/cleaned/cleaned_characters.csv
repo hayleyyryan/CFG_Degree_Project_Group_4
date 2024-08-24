@@ -33,8 +33,8 @@ Riju,Female,BOTW,Child,0,1,BOTW_Riju,Human,Protagonist,SC,0
 Lillie,Female,PSM,Child,0,0,PSM_Lillie,Human,Protagonist,MC,0
 Lusamine,Female,PSM,Middle-aged,0,0,PSM_Lusamine,Human,Antagonist,MA,0
 Yennefer,Female,TW3,Adult,0,2,TW3_Yennefer,Human,Protagonist,MC,1
-Triss ,Female,TW3,Adult,0,2,TW3_Triss,Human,Protagonist,SC,3
-Keira Metz,Female,TW3,Adult,0,2,TW3_Keira,Human,Protagonist,SC,3
+Triss ,Female,TW3,Adult,0,2,TW3_Triss,Human,Protagonist,SC,2
+Keira Metz,Female,TW3,Adult,0,2,TW3_Keira,Human,Protagonist,SC,2
 Roach,Female,TW3,Unknown,0,0,TW3_Roach,Animal,Protagonist,SK,0
 Crones,Female,TW3,Unknown,0,0,TW3_Crones,Humanoid,Antagonist,SC,0
 Maya,Female,BL2,Adult,1,0,BL2_Maya,Human,Protagonist,PA,0
@@ -247,13 +247,13 @@ Goro Akechi,Male,PSN5,Young adult,1,0,PSN5_Goro,Human,Both,MC,0
 Shido,Male,PSN5,Middle-aged,0,0,PSN5_Shido,Human,Antagonist,MA,0
 Lavenza,Female,PSN5,Unknown,0,0,PSN5_Lavenza,Human,Both,SC,0
 Sojiro Sakura,Male,PSN5,Middle-aged,0,0,PSN5_Sojiro,Human,Protagonist,SC,0
-Ann Takamaki,Female,PSN5,Teenager,1,2,PSN5_Ann,Human,Protagonist,DA,3
+Ann Takamaki,Female,PSN5,Teenager,1,2,PSN5_Ann,Human,Protagonist,DA,2
 Shiho,Female,PSN5,Teenager,0,1,PSN5_Shiho,Human,Protagonist,SC,0
 Yusuke Kitagawa,Male,PSN5,Teenager,1,0,PSN5_Yusuke,Human,Protagonist,MC,0
-Makoto Nijima,Female,PSN5,Teenager,1,0,PSN5_Makoto,Human,Protagonist,MC,3
+Makoto Nijima,Female,PSN5,Teenager,1,0,PSN5_Makoto,Human,Protagonist,MC,2
 Sae Nijima,Female,PSN5,Young adult,0,0,PSN5_Sae,Human,Both,MC,0
-Futaba Sakura,Female,PSN5,Teenager,0,0,PSN5_Futaba,Human,Protagonist,MC,3
-Haru Okumura,Female,PSN5,Teenager,1,0,PSN5_Haru,Human,Protagonist,MC,3
+Futaba Sakura,Female,PSN5,Teenager,0,0,PSN5_Futaba,Human,Protagonist,MC,2
+Haru Okumura,Female,PSN5,Teenager,1,0,PSN5_Haru,Human,Protagonist,MC,2
 Madarame,Male,PSN5,Middle-aged,0,0,PSN5_Madarame,Human,Antagonist,SC,0
 Kaneshiro,Male,PSN5,Adult,0,0,PSN5_Kaneshiro,Human,Antagonist,SC,0
 Fox,Non-binary,TN,Unknown,1,0,TN_Fox,Humanoid-Animal,Protagonist,PA,0
@@ -317,16 +317,16 @@ Pascal,Male,NRA,Unknown,0,0,NRA_Pascal,Robot,Protagonist,SC,0
 Devola,Female,NRA,Adult,0,0,NRA_Devola,Android-Robot,Protagonist,MC,0
 Popola,Female,NRA,Adult,0,0,NRA_Popola,Android-Robot,Protagonist,MC,0
 Emil,Male,NRA,Child,0,0,NRA_Emil,Human,Protagonist,SC,0
-Cal,Male,IWATE,Teenager,0,0,IWATE_Cal,Human,Protagonist,MC,3
-Anemone,Female,IWATE,Teenager,0,0,IWATE_Anemone,Human,Protagonist,MC,3
-Dys,Male,IWATE,Teenager,0,0,IWATE_Dys,Human,Protagonist,MC,3
-Marz,Female,IWATE,Teenager,0,0,IWATE_Marz,Human,Protagonist,MC,3
-Rex,Male,IWATE,Teenager,0,0,IWATE_Rex,Human,Protagonist,MC,3
-Tangent,Female,IWATE,Teenager,0,0,IWATE_Tangent,Human,Protagonist,MC,3
-Vace,Male,IWATE,Teenager,0,0,IWATE_Vace,Human,Protagonist,MC,3
-Nomi Nomi,Non-binary,IWATE,Teenager,0,0,IWATE_Nomi,Human,Protagonist,MC,3
-Sym,Male,IWATE,Teenager,0,0,IWATE_Sym,Human,Protagonist,MC,3
-Tammy,Female,IWATE,Teenager,0,0,IWATE_Tammy,Human,Protagonist,MC,3
+Cal,Male,IWATE,Teenager,0,0,IWATE_Cal,Human,Protagonist,MC,2
+Anemone,Female,IWATE,Teenager,0,0,IWATE_Anemone,Human,Protagonist,MC,2
+Dys,Male,IWATE,Teenager,0,0,IWATE_Dys,Human,Protagonist,MC,2
+Marz,Female,IWATE,Teenager,0,0,IWATE_Marz,Human,Protagonist,MC,2
+Rex,Male,IWATE,Teenager,0,0,IWATE_Rex,Human,Protagonist,MC,2
+Tangent,Female,IWATE,Teenager,0,0,IWATE_Tangent,Human,Protagonist,MC,2
+Vace,Male,IWATE,Teenager,0,0,IWATE_Vace,Human,Protagonist,MC,2
+Nomi Nomi,Non-binary,IWATE,Teenager,0,0,IWATE_Nomi,Human,Protagonist,MC,2
+Sym,Male,IWATE,Teenager,0,0,IWATE_Sym,Human,Protagonist,MC,2
+Tammy,Female,IWATE,Teenager,0,0,IWATE_Tammy,Human,Protagonist,MC,2
 Protagonist,Custom,IWATE,Teenager,1,0,IWATE_Protagonist,Human,Protagonist,PA,0
 Flulu,Female,IWATE,Adult,0,0,IWATE_Flulu,Human,Protagonist,SC,0
 Geranium,Male,IWATE,Adult,0,0,IWATE_Geranium,Human,Protagonist,SC,0
@@ -402,15 +402,15 @@ Sein,Non-binary,OAWW,Unknown,0,0,OAWW_Sein,Animated Object,Protagonist,SK,0
 Baur,Male,OAWW,Unknown,0,0,OAWW_Baur,Animal,Protagonist,SC,0
 Shriek,Female,OAWW,Unknown,0,0,OAWW_Shriek,Creature,Antagonist,MA,0
 Hero,Male,DQXI,Teenager,1,0,DQXI_Hero,Human,Protagonist,PA,0
-Rab,Male,DQXI,Elderly,1,0,DQXI_Rab,Human,Protagonist,MC,3
-Serena,Female,DQXI,Teenager,1,0,DQXI_Serena,Human,Protagonist,MC,3
-Jade,Female,DQXI,Young adult,1,2,DQXI_Jade,Human,Protagonist,MC,3
-Erik,Male,DQXI,Young adult,1,0,DQXI_Erik,Human,Protagonist,MC,3
-Sylvando,Male,DQXI,Adult,1,0,DQXI_Sylvando,Human,Protagonist,MC,3
-Veronica,Female,DQXI,Teenager,1,0,DQXI_Veronica,Human,Protagonist,MC,3
+Rab,Male,DQXI,Elderly,1,0,DQXI_Rab,Human,Protagonist,MC,2
+Serena,Female,DQXI,Teenager,1,0,DQXI_Serena,Human,Protagonist,MC,2
+Jade,Female,DQXI,Young adult,1,2,DQXI_Jade,Human,Protagonist,MC,2
+Erik,Male,DQXI,Young adult,1,0,DQXI_Erik,Human,Protagonist,MC,2
+Sylvando,Male,DQXI,Adult,1,0,DQXI_Sylvando,Human,Protagonist,MC,2
+Veronica,Female,DQXI,Teenager,1,0,DQXI_Veronica,Human,Protagonist,MC,2
 King Carnelian,Male,DQXI,Elderly,0,0,DQXI_King,Human,Both,SC,0
 Jasper,Male,DQXI,Adult,0,0,DQXI_Jasper,Human,Both,SC,0
-Hendrik,Male,DQXI,Adult,1,0,DQXI_Hendrik,Human,Both,MC,3
+Hendrik,Male,DQXI,Adult,1,0,DQXI_Hendrik,Human,Both,MC,2
 Mordegon,Male,DQXI,Unknown,0,0,DQXI_Mordegon,Humanoid,Antagonist,MA,0
 Calasmos,Male,DQXI,Unknown,0,0,DQXI_Calasmos,Creature,Antagonist,MA,0
 Serenica,Female,DQXI,Unknown,0,0,DQXI_Serenica,Human,Protagonist,SC,0
@@ -441,12 +441,12 @@ Alexandar,Male,DOS2,Adult,0,0,DOS2_Alexandar,Human,Antagonist,SC,0
 Dallis,Female,DOS2,Adult,0,0,DOS2_Dallis,Human,Antagonist,MC,0
 Lucian,Male,DOS2,Adult,0,0,DOS2_Lucian,Human,Antagonist,SC,0
 Braccus Rex,Male,DOS2,Adult,0,0,DOS2_Braccus,Human,Antagonist,SC,0
-Beast,Male,DOS2,Adult,1,0,DOS2_Beast,Human,Protagonist,MC,3
-Sebille,Female,DOS2,Adult,1,0,DOS2_Sebille,Human,Protagonist,MC,3
-Ifan Ben-Mezd,Male,DOS2,Adult,1,0,DOS2_Ifan,Human,Protagonist,MC,3
-Red Prince,Male,DOS2,Adult,1,0,DOS2_Red,Humanoid,Protagonist,MC,3
-Fane,Male,DOS2,Adult,1,0,DOS2_Fane,Humanoid,Protagonist,MC,3
-Lohse,Female,DOS2,Adult,1,0,DOS2_Lohse,Human,Protagonist,MC,3
+Beast,Male,DOS2,Adult,1,0,DOS2_Beast,Human,Protagonist,MC,2
+Sebille,Female,DOS2,Adult,1,0,DOS2_Sebille,Human,Protagonist,MC,2
+Ifan Ben-Mezd,Male,DOS2,Adult,1,0,DOS2_Ifan,Human,Protagonist,MC,2
+Red Prince,Male,DOS2,Adult,1,0,DOS2_Red,Humanoid,Protagonist,MC,2
+Fane,Male,DOS2,Adult,1,0,DOS2_Fane,Humanoid,Protagonist,MC,2
+Lohse,Female,DOS2,Adult,1,0,DOS2_Lohse,Human,Protagonist,MC,2
 Sekiro Wolf,Male,SSDT,Adult,1,0,SSDT_Sekiro,Human,Protagonist,PA,0
 Kuro Divine Lord,Male,SSDT,Child,0,1,SSDT_Kuro,Human,Protagonist,DA,0
 Commander,Male,SSDT,Adult,0,0,SSDT_Commander,Human,Antagonist,SC,0
@@ -470,11 +470,11 @@ Trish,Female,DMC5,Unknown,0,0,DMC5_Trish,Human,Protagonist,SC,0
 Vergil,Male,DMC5,Middle-aged,0,0,DMC5_Vergil,Human,Antagonist,MC,0
 Byleth,Custom,FE3H,Adult,1,0,FE3H_Byleth,Human,Protagonist,PA,0
 Sothis,Female,FE3H,Unknown,0,0,FE3H_Sothis,Human,Protagonist,SK,0
-Edelgard,Female,FE3H,Young adult,1,0,FE3H_Edelgard,Human,Both,MC,3
+Edelgard,Female,FE3H,Young adult,1,0,FE3H_Edelgard,Human,Both,MC,2
 Dimitri Prince,Male,FE3H,Young adult,1,0,FE3H_Dimitri,Human,Both,MC,0
 Claude,Male,FE3H,Young adult,1,0,FE3H_Claude,Human,Both,MC,0
 Jeralt,Male,FE3H,Elderly,0,0,FE3H_Jeralt,Human,Both,MC,0
-Rhea,Female,FE3H,Unknown,0,0,FE3H_Rhea,Human,Both,MC,3
+Rhea,Female,FE3H,Unknown,0,0,FE3H_Rhea,Human,Both,MC,2
 Flame Emperor,Male,FE3H,Unknown,0,0,FE3H_Flame,Human,Both,SC,0
 Nemesis,Male,FE3H,Unknown,0,0,FE3H_Nemesis,Human,Both,SC,0
 Aelfric,Female,FE3H,Adult,0,0,FE3H_Aelfric,Human,Both,SC,0
@@ -593,7 +593,7 @@ Mother,Female,TBOIR,Adult,0,0,TBOIR_Mother,Human,Antagonist,MA,0
 Magdalene,Female,TBOIR,Child,1,0,TBOIR_Magdalene,Human,Protagonist,MC,0
 Cain,Male,TBOIR,Child,1,0,TBOIR_Cain,Human,Protagonist,MC,0
 Judas,Male,TBOIR,Child,1,0,TBOIR_Judas,Human,Protagonist,MC,0
-Noname,Male,TBOIR,Child,1,0,TBOIR_Noname,Human,Protagonist,MC,0
+???BlueBaby,Male,TBOIR,Child,1,0,TBOIR_???BlueBaby,Human,Protagonist,MC,0
 Eve,Female,TBOIR,Child,1,0,TBOIR_Eve,Human,Protagonist,SC,0
 Samson,Male,TBOIR,Child,1,0,TBOIR_Samson,Human,Protagonist,SC,0
 Azazel,Male,TBOIR,Child,1,0,TBOIR_Azazel,Human,Protagonist,SC,0
