@@ -10,11 +10,11 @@ const DataAnalysis = () => {
 
   return (
     <Container className="data-analysis">
-     <Text h1 className="overview-title">Data Analysis</Text>
-     
+
       <Spacer y={1} />
       <Card css={{ p: "$6", mw: "800px", margin: "0 auto", mb: "$6" }}>
         <Card.Body>
+        <Text h1 className="overview-title">Data Analysis</Text>
           <Text>
             Our initial task consisted of brainstorming platforms that offer reliable, accurate, and up-to-date data on video characters and gender. Websites such as IGDB and Steam offer APIs, but these were not all accessible. In some cases, gender endpoints were not offered, and in other cases, gender endpoints only allowed ‘post’ requests, making ‘get’ requests for data impossible.
           </Text>
@@ -25,7 +25,7 @@ const DataAnalysis = () => {
         <Collapse.Group>
           <Collapse title="Data Collection" expanded={activeKey === '1'} onClick={() => handleToggle('1')}>
         <Text>
-          We thus chose the <strong>‘Gender Representation in Video Games’ Kaggle dataset</strong> (contributed by Brisa?). Consisting of three .csv files, this dataset is ideal for our analysis, containing timely data from sixty-five video games between 2012 and 2022. The video games consist of approximately five highly rated or popular titles for each year within this ten-year period.
+          We thus chose the <strong>‘Gender Representation in Video Games’ Kaggle dataset</strong> (contributed by Brisa). Consisting of three .csv files, this dataset is ideal for our analysis, containing timely data from sixty-five video games between 2012 and 2022. The video games consist of approximately five highly rated or popular titles for each year within this ten-year period.
         </Text>
         <Spacer y={1} />
         <Text>
@@ -38,6 +38,7 @@ const DataAnalysis = () => {
         <Spacer y={1} />
         <Text>
           We were thus able to access three tables: <strong>Games, Characters, and Sexualisation</strong>.
+          The following guide was followed: <a href="https://www.kaggle.com/docs/api">Public API</a>.
         </Text>
         <Spacer y={1} />
         <Text h4>Metadata Summary</Text>
@@ -83,7 +84,7 @@ const DataAnalysis = () => {
         </Text>
         <Spacer y={1} />
         <Text>
-          The above list has narrowed down the columns to those more relevant to our research purpose. For an extensive guide to the dataset’s metadata, please click the link <a href="#">here</a>.
+          The above list has narrowed down the columns to those more relevant to our research purpose. For an extensive guide to the dataset’s metadata, please click the link <a href="https://www.kaggle.com/datasets/br33sa/gender-representation-in-video-games/data">here</a> to be guided to the dataset.
         </Text>
           </Collapse>
 
@@ -92,7 +93,8 @@ const DataAnalysis = () => {
           <Collapse title="Research Questions" expanded={activeKey === '2'} onClick={() => handleToggle('2')}>
           <p>
           As we reviewed the dataset and its structure, a number of questions arose. 
-          For further details, refer to our <a href="/link-to-questions-doc">questions document</a>.
+          For further details, refer to our <a href="https://docs.google.com/document/d/19mBHm7LXrJGjJXgH7GoCGGlncxuUD_N3KA4OeaokloM">questions document</a>.
+          However, in order to refine our research, we prioritised the following questions: 
         </p>
         <ul className="custom-numbered-list">
           <li>What trend can we see in the number of non-male protagonists over time?</li>
@@ -105,6 +107,38 @@ const DataAnalysis = () => {
           <li>Which year had the most sexualized clothing in games?</li>
           <li>Which age range results in a character (across genders) being most likely to function as a romantic interest?</li>
         </ul>
+          </Collapse>
+
+          <Collapse title="Data Cleaning" expanded={activeKey === '4'} onClick={() => handleToggle('4')}>
+          <Text>
+          Before performing any analysis of the dataset, we carried out data cleaning to ensure accuracy and reliability of our data.
+
+All data sets were first reviewed, with us gaining an understanding of its structure and how each table was related to one another. For example the tables can be considered relational due to the following primary key - foreign key relationships:
+        <ul className="custom-numbered-list">
+          <li>The Games dataframe Game_ID column is related to the Character dataframe’s Game column.</li>
+          <li>The Character data frames Id column is related to the Sexualization dataframe’s Id column.</li>
+        </ul>
+
+            </Text>
+            <Text>
+            All three data frames were imported into a Jupyter notebook using the Python and Pandas libraries. We utilised modules such as Numpy to enable seamless work with array objects, as well as Matplotlib and Seaborn imported for data exploration and visualisation. </Text><p></p>
+            
+            <Text>The datetime module, enabling manipulation of dates was imported for any adjustments or cleaning of the Game data frames ‘Release Date’ column. The Operating System (os) module was also installed in some instances in order to locate the imported data sets file path.</Text><p></p>
+
+<Text>The data frames once imported were reviewed for null values,  no nulls were found within the three datasets. Duplicate values were checked for next which also yielded no values. Following this our data’s data types were called to see if our cleaning process would include changing any data type. Sample functions were run on our data sets in order to get an idea of the type of data held in each column.</Text><p></p>
+
+<Text>The cleaning of Character data also involved:
+Altering of column names to better capture dynamics of the column.
+ 'Side' changed to 'Alliance' to capture the relationship between the character of focus and others in the game
+'Relevance' has been changed to 'Function' to highlight the character's function in the game and seemed to be a more neutral term.
+'Sexualization' has been changed to 'Sexualization_total', a minor change but clarified this column is a sum of the sexualization types in the sexualization table.</Text><p></p>
+<Text>Dropping of the ‘Age’ column and retention of ‘Age_Range’ column, as these columns were similar in data - although ‘Age’ contained more individual fields than ‘Age_Range’ these additional fields were already effectively documented in the ‘Age_Range’ column.
+Single character whose name was altered to contain their alias. significant as we may have required this character's name when exploring sexualization. The presence of ‘???’ may be misinterpreted by someone not familiar with this game as an unknown value.</Text><p></p>
+
+<Text>Cleaning of Sexualization data also required the following:
+Changing of ‘Id’ column to ‘Character_Id’ to ensure the seamless merging of data frames during exploration.
+</Text>
+
           </Collapse>
 
           <Collapse title="Exploratory Analysis" expanded={activeKey === '4'} onClick={() => handleToggle('4')}>

@@ -1,23 +1,16 @@
 
 .project-overview {
-  padding: 40px 20px;
+  padding: 20px 20px;
   margin: 0 auto;
   max-width: 900px;
 }
 
 .overview-title {
   text-align: center;
-  font-family: 'Arial', sans-serif;
-  margin-bottom: 40px;
-}
-
-.overview-section {
-  background-color: var(--section-background-color); /* Use a CSS variable */
-  border: 1px solid var(--border-color); /* Use a CSS variable */
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
+  display: block;
+  height: 100px; 
+  line-height: 100px;
 }
 
 @media (max-width: 768px) {

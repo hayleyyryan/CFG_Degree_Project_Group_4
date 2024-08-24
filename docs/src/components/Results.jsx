@@ -1,13 +1,22 @@
 // ResultsPage.js
 import React from 'react';
 import CollapsibleCard from './CollapsibleCard';
-import {Text, Container} from '@nextui-org/react';
+import {Text, Container, Spacer, Card} from '@nextui-org/react';
 import './ResultsPage.css'; // Import any additional styles
 
 const Results = () => {
   return (
     <Container className="results-page">
-     <Text h1 className="overview-title">Results</Text>
+
+     <Spacer y={1} />
+      <Card css={{ p: "$6", margin: "0 auto", mb: "$6" }}>
+        <Card.Body>
+          <Text>
+          <Text h1 className="overview-title">Results</Text>
+            Our data exploration uncovered a number of interesting insights. You can read these below in further detail.
+          </Text>
+        </Card.Body>
+      </Card>
       
       <CollapsibleCard
         title="What trend can we see in the number of non-male protagonists over time?"

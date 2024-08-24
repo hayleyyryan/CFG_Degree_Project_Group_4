@@ -1,14 +1,7 @@
 .results-page {
-  padding: 40px 20px;
+  padding: 0px 20px;
   margin: 0 auto;
   max-width: 900px;
-}
-
-.results-page h1 {
-    text-align: center;
-    font-family: 'Arial', sans-serif;
-    margin: 0 auto 40px; 
-    display: block; 
 }
 
 .results-page .collapsible-card {
@@ -43,4 +36,10 @@
 
 .results-page .toggle-icon.open {
   transform: rotate(45deg); /* Rotate icon when open */
+}
+
+.card-contents {
+  padding: "$6";
+  max-width: "900px";
+  margin: "0 auto";
 }
