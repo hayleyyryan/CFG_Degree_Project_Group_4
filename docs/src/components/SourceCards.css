@@ -1,12 +1,10 @@
 .source-cards-container {
     display: flex;
-    flex-wrap: wrap;
     gap: 16px; /* Space between cards */
     justify-content: center; /* Center cards horizontally */
   }
   
   .source-card {
-    width: 220px; /* Adjust width to fit content */
     border-radius: 8px; /* Rounded corners */
     overflow: hidden; /* Ensure image fits within the card */
   }
