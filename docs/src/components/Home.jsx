@@ -10,7 +10,7 @@ import SourceCards from './SourceCards';
 
 const Home = () => {
   return (
-    <Container className="home-container" css={{mw: 'fit-content'}}>
+    <Container className="home-container">
       {/* Hero Section */}
       <Card className="hero-card" variant="bordered">
         <Card.Body>
