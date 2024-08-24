@@ -4,7 +4,6 @@
   }
   
   .source-card {
-    max-width: 200px; /* Reduced maximum width to fit more cards */
     border-radius: 8px; /* Rounded corners */
     overflow: hidden; /* Ensure image fits within the card */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
