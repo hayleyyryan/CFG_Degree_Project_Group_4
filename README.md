@@ -21,7 +21,7 @@ Our documentation outlining how we went about gathering our data, cleaning it, e
 
 ## Presentation Slides
 
-[Slides](https://docs.google.com/presentation/d/19QCMBuJqgwTHNXKm1YYXYlIl8coi1IVbLx8YZBPA7iM/edit#slide=id.g251d23597c_1_1)
+[Slides]([https://docs.google.com/presentation/d/19QCMBuJqgwTHNXKm1YYXYlIl8coi1IVbLx8YZBPA7iM/edit#slide=id.g251d23597c_1_1](https://docs.google.com/presentation/d/19QCMBuJqgwTHNXKm1YYXYlIl8coi1IVbLx8YZBPA7iM/edit?usp=sharing))
 
 ## Authors
 
