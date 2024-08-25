@@ -163,3 +163,4 @@ cython_debug/
 
 #files
 sexualization.csv
+.DS_Store
