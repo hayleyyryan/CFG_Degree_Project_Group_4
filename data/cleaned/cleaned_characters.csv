@@ -4,7 +4,7 @@ Protagonist,Custom,PSS,Teenager,1,0,PSS_Protagonist,Human,Protagonist,PA,0
 Magnolia,Female,PSS,Elderly,0,0,PSS_Magnolia,Human,Protagonist,SC,0
 Sonia,Female,PSS,Adult,0,0,PSS_Sonia,Human,Protagonist,SC,0
 Marnie,Female,PSS,Teenager,0,0,PSS_Marnie,Human,Both,MC,0
-Oleana,Female,PSS,Adult,0,0,PSS_Oleana,Human,Antagonist,SC,0
+Oleana ,Female,PSS,Adult,0,0,PSS_Oleana,Human,Antagonist,SC,0
 Peach,Female,SMO,Adult,0,2,SMO_Peach,Human,Protagonist,MC,1
 Zelda,Female,BOTW,Teenager,0,0,BOTW_Zelda,Human,Protagonist,DA,0
 Protagonist,Custom,PSM,Child,1,0,PSM_Protagonist,Human,Protagonist,PA,0
@@ -33,7 +33,7 @@ Riju,Female,BOTW,Child,0,1,BOTW_Riju,Human,Protagonist,SC,0
 Lillie,Female,PSM,Child,0,0,PSM_Lillie,Human,Protagonist,MC,0
 Lusamine,Female,PSM,Middle-aged,0,0,PSM_Lusamine,Human,Antagonist,MA,0
 Yennefer,Female,TW3,Adult,0,2,TW3_Yennefer,Human,Protagonist,MC,1
-Triss,Female,TW3,Adult,0,2,TW3_Triss,Human,Protagonist,SC,2
+Triss ,Female,TW3,Adult,0,2,TW3_Triss,Human,Protagonist,SC,2
 Keira Metz,Female,TW3,Adult,0,2,TW3_Keira,Human,Protagonist,SC,2
 Roach,Female,TW3,Unknown,0,0,TW3_Roach,Animal,Protagonist,SK,0
 Crones,Female,TW3,Unknown,0,0,TW3_Crones,Humanoid,Antagonist,SC,0
@@ -593,7 +593,7 @@ Mother,Female,TBOIR,Adult,0,0,TBOIR_Mother,Human,Antagonist,MA,0
 Magdalene,Female,TBOIR,Child,1,0,TBOIR_Magdalene,Human,Protagonist,MC,0
 Cain,Male,TBOIR,Child,1,0,TBOIR_Cain,Human,Protagonist,MC,0
 Judas,Male,TBOIR,Child,1,0,TBOIR_Judas,Human,Protagonist,MC,0
-???,Male,TBOIR,Child,1,0,TBOIR_???,Human,Protagonist,MC,0
+???BlueBaby,Male,TBOIR,Child,1,0,TBOIR_???BlueBaby,Human,Protagonist,MC,0
 Eve,Female,TBOIR,Child,1,0,TBOIR_Eve,Human,Protagonist,SC,0
 Samson,Male,TBOIR,Child,1,0,TBOIR_Samson,Human,Protagonist,SC,0
 Azazel,Male,TBOIR,Child,1,0,TBOIR_Azazel,Human,Protagonist,SC,0
