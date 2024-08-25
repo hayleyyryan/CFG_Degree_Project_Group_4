@@ -19,6 +19,10 @@
 ## Documentation
 Our documentation outlining how we went about gathering our data, cleaning it, exploring it and creating our visualisations is hosted at [our Github docs page](https://hayleyyryan.github.io/CFG_Degree_Project_Group_4/). Please read through to understand how we worked together as a team to deliver our data analysis.
 
+## Presentation Slides
+
+[Slides](https://docs.google.com/presentation/d/19QCMBuJqgwTHNXKm1YYXYlIl8coi1IVbLx8YZBPA7iM/edit#slide=id.g251d23597c_1_1)
+
 ## Authors
 
 👤 **Elisabeth Garzon, Hayley Ryan, Dea Satko, Simone Tagoe and Verena Zyla**
