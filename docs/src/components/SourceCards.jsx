@@ -7,6 +7,7 @@ const images = {
   figma: 'https://cdn.sanity.io/images/599r6htc/regionalized/266ec07c0cfe14229530256bb9700e0bce7ff8d4-2400x1260.png?w=1200&q=70&fit=max&auto=format',
   data: 'https://cdn.prod.website-files.com/666bbba4ff7240a20f4cccf8/666bbba4ff7240a20f4ce4da_Data%20Exploration%20(1).png',
   trello: 'https://graphpaperpress.com/wp-content/uploads/2015/01/Trello-Logo-1.png',
+  presentation: 'https://ahaslides.com/wp-content/uploads/2020/10/Blog-InteractiveGoogleSlides_Mobile.png'
 };
 
 const SourceCards = () => {
@@ -19,7 +20,7 @@ const SourceCards = () => {
           <Text size={14}>Our project assignment document.</Text>
         </Card.Body>
         <Card.Footer>
-          <Link href="https://docs.google.com/document/d/1m3mGb3leWoQuAuEdwxRq_UVilsk-dBr9mKF6RpxSF6A/edit" target="_blank">View Document</Link>
+          <Link href="https://docs.google.com/document/d/1m3mGb3leWoQuAuEdwxRq_UVilsk-dBr9mKF6RpxSF6A">View Document</Link>
         </Card.Footer>
       </Card>
 
@@ -30,7 +31,7 @@ const SourceCards = () => {
           <Text size={14}>Our Figma design board.</Text>
         </Card.Body>
         <Card.Footer>
-          <Link href="https://www.figma.com/board/Q4MbTn6HMtA6WEnZQiyURc/Data-Science-Group-Project?node-id=0-1&t=vto4fH5QFy7RWbI5-0" target="_blank">View Board</Link>
+          <Link href="https://www.figma.com/board/Q4MbTn6HMtA6WEnZQiyURc/Data-Science-Group-Project?node-id=0-1&t=vto4fH5QFy7RWbI5-0">View Board</Link>
         </Card.Footer>
       </Card>
 
@@ -41,7 +42,7 @@ const SourceCards = () => {
           <Text size={14}>Our data exploration document.</Text>
         </Card.Body>
         <Card.Footer>
-          <Link href="https://docs.google.com/document/d/19mBHm7LXrJGjJXgH7GoCGGlncxuUD_N3KA4OeaokloM/edit" target="_blank">View Document</Link>
+          <Link href="https://docs.google.com/document/d/19mBHm7LXrJGjJXgH7GoCGGlncxuUD_N3KA4OeaokloM">View Document</Link>
         </Card.Footer>
       </Card>
 
@@ -53,6 +54,17 @@ const SourceCards = () => {
         </Card.Body>
         <Card.Footer>
           <Link href="https://trello.com/b/tcSzVAfE/data-science-group-project" target="_blank">View Board</Link>
+        </Card.Footer>
+      </Card>
+
+      <Card className="source-card" hoverable clickable>
+        <Card.Body>
+          <img src={images.presentation} alt="Google Presentation" className="card-image" />
+          <Text h5>Project Presentation</Text>
+          <Text size={14}>Our data analysis presentation.</Text>
+        </Card.Body>
+        <Card.Footer>
+          <Link href="https://docs.google.com/presentation/d/19QCMBuJqgwTHNXKm1YYXYlIl8coi1IVbLx8YZBPA7iM/edit#slide=id.g25f6af9dd6_0_0" target="_blank">View Presentation</Link>
         </Card.Footer>
       </Card>
     </div>
